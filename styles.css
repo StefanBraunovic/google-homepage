@@ -1,0 +1,99 @@
+html{
+    color: -internal-root-color;
+}
+
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    min-width: 181px;
+    height: 30px;
+    padding: 15px 15px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+.link-item{
+    margin: 0px 15px 0 0;
+    color:black;
+    text-decoration: none;
+    align-self: center;
+}
+
+.production-button{
+    margin: 0px 15px 0 0;
+    align-self: center;
+    opacity: 0.5;
+}
+#product-logo{
+    width: 16px;
+    height: 16px;
+    padding: 8px 15px ;
+}
+.sign-in-button{
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid rgb(68, 125, 231);
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    padding: 8px 15px 15px 15px;
+    background-color: rgb(68, 125, 231) ;
+}
+
+.empty-space{
+    height: 145px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#bottom-empty-space{
+    height: 29px;
+
+}
+
+form{
+    margin:0 auto;
+   
+}
+.searchbox{
+    max-width: 500px;
+    display: flex;
+    margin: 0 auto;
+    height: 44px;
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 24px;
+}
+.search-icon{
+    display: flex;
+    opacity: 0.5;
+    height: 15px;
+    width: 15px;
+    padding: 0 15px;
+    margin: auto;
+}
+.search-field{
+    border: none;
+    margin: auto 0;
+    line-height: 34px;
+    outline: none;
+    flex: 100%;
+    font-size:16px;
+}
+.mic-icon{
+    height: 24px;
+    width: 24px;
+    margin: auto 0;
+    padding: 0 15px;
+}
